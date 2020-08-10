@@ -8,11 +8,11 @@
 """Model and loss construction functions."""
 
 import torch
-from pycls.core.config import cfg
-from pycls.models.anynet import AnyNet
-from pycls.models.effnet import EffNet
-from pycls.models.regnet import RegNet
-from pycls.models.resnet import ResNet
+from templete.pycls.core.config import cfg
+from templete.pycls.models.anynet import AnyNet
+from templete.pycls.models.effnet import EffNet
+from templete.pycls.models.regnet import RegNet
+from templete.pycls.models.resnet import ResNet
 
 
 # Supported models
