@@ -10,9 +10,9 @@
 import os
 
 import torch
-from pycls.core.config import cfg
-from pycls.datasets.cifar10 import Cifar10
-from pycls.datasets.imagenet import ImageNet
+from templete.pycls.core.config import cfg
+from templete.pycls.datasets.cifar10 import Cifar10
+from templete.pycls.datasets.imagenet import ImageNet
 from torch.utils.data.distributed import DistributedSampler
 from torch.utils.data.sampler import RandomSampler
 

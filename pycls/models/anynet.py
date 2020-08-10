@@ -7,9 +7,9 @@
 
 """AnyNet models."""
 
-import pycls.core.net as net
+import templete.pycls.core.net as net
 import torch.nn as nn
-from pycls.core.config import cfg
+from templete.pycls.core.config import cfg
 
 
 def get_stem_fun(stem_type):

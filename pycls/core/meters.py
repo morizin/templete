@@ -10,10 +10,10 @@
 from collections import deque
 
 import numpy as np
-import pycls.core.logging as logging
+import templete.pycls.core.logging as logging
 import torch
-from pycls.core.config import cfg
-from pycls.core.timer import Timer
+from templete.pycls.core.config import cfg
+from templete.pycls.core.timer import Timer
 
 
 logger = logging.get_logger(__name__)

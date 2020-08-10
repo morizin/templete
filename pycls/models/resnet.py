@@ -7,9 +7,9 @@
 
 """ResNe(X)t models."""
 
-import pycls.core.net as net
+import templete.pycls.core.net as net
 import torch.nn as nn
-from pycls.core.config import cfg
+from templete.pycls.core.config import cfg
 
 
 # Stage depths for ImageNet models

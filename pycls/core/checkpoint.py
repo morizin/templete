@@ -9,9 +9,9 @@
 
 import os
 
-import pycls.core.distributed as dist
+import templete.pycls.core.distributed as dist
 import torch
-from pycls.core.config import cfg
+from templete.pycls.core.config import cfg
 
 
 # Common prefix for checkpoint file names

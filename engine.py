@@ -7,8 +7,8 @@ from sklearn.metrics import cohen_kappa_score
 import scipy
 from functools import partial
 
-import config 
-from utils import accuracy
+import templete.config 
+from templete.utils import accuracy
 if config.apex:
     from apex import amp
 

@@ -13,9 +13,9 @@ import logging
 import os
 import sys
 
-import pycls.core.distributed as dist
+import templete.pycls.core.distributed as dist
 import simplejson
-from pycls.core.config import cfg
+from templete.pycls.core.config import cfg
 
 
 # Show filename and line number in logs

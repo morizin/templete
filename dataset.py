@@ -8,7 +8,7 @@ import config
 import albumentations
 from tqdm import tqdm 
 import time 
-from preprocess import crop_white
+from templete.preprocess import crop_white
 
 class PANDADataset(Dataset):
     def __init__(self,

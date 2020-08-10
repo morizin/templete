@@ -9,7 +9,7 @@
 
 import numpy as np
 import torch
-from pycls.core.config import cfg
+from templete.pycls.core.config import cfg
 
 
 def construct_optimizer(model):

@@ -11,10 +11,10 @@ import os
 import pickle
 
 import numpy as np
-import pycls.core.logging as logging
-import pycls.datasets.transforms as transforms
+import templete.pycls.core.logging as logging
+import templete.pycls.datasets.transforms as transforms
 import torch.utils.data
-from pycls.core.config import cfg
+from templete.pycls.core.config import cfg
 
 
 logger = logging.get_logger(__name__)

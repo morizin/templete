@@ -10,7 +10,7 @@ from tensorboardX import SummaryWriter
 import multiprocessing
 
 
-import config 
+import templete.config 
 if config.apex:
     from apex import amp
 from utils import (

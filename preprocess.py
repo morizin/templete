@@ -3,7 +3,7 @@ import numpy as np
 import cv2 
 import skimage.io 
 import os
-import config
+import templete.config
 from sklearn.model_selection import StratifiedKFold
 from tqdm import tqdm 
 import multiprocessing

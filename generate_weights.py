@@ -6,9 +6,9 @@ import torch
 import pandas as pd 
 from tqdm import tqdm
 from torch.utils.data import Dataset
-import config
-from modules import EfficientModel
-from dataset import PANDADatasetTiles,get_transforms
+import templete.config
+from templete.modules import EfficientModel
+from templete.dataset import PANDADatasetTiles,get_transforms
 
 
 class  PANDADatasetTiles(Dataset):

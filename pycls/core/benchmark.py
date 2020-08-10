@@ -7,11 +7,11 @@
 
 """Benchmarking functions."""
 
-import pycls.core.logging as logging
-import pycls.datasets.loader as loader
+import templete.pycls.core.logging as logging
+import templete.pycls.datasets.loader as loader
 import torch
-from pycls.core.config import cfg
-from pycls.core.timer import Timer
+from templete.pycls.core.config import cfg
+from templete.pycls.core.timer import Timer
 
 
 logger = logging.get_logger(__name__)

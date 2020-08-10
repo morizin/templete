@@ -10,18 +10,18 @@
 import os
 
 import numpy as np
-import pycls.core.benchmark as benchmark
-import pycls.core.builders as builders
-import pycls.core.checkpoint as checkpoint
-import pycls.core.config as config
-import pycls.core.distributed as dist
-import pycls.core.logging as logging
-import pycls.core.meters as meters
-import pycls.core.net as net
-import pycls.core.optimizer as optim
-import pycls.datasets.loader as loader
+import templete.pycls.core.benchmark as benchmark
+import templete.pycls.core.builders as builders
+import templete.pycls.core.checkpoint as checkpoint
+import templete.pycls.core.config as config
+import templete.pycls.core.distributed as dist
+import templete.pycls.core.logging as logging
+import templete.pycls.core.meters as meters
+import templete.pycls.core.net as net
+import templete.pycls.core.optimizer as optim
+import templete.pycls.datasets.loader as loader
 import torch
-from pycls.core.config import cfg
+from templete.pycls.core.config import cfg
 
 
 logger = logging.get_logger(__name__)

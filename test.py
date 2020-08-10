@@ -10,7 +10,7 @@ import torch.nn.functional as F
 from torch.nn.parameter import Parameter
 import torchvision 
 from efficientnet_pytorch import model as enet
-import config
+import templete.config
 from sklearn.metrics import cohen_kappa_score
 from functools import partial
 

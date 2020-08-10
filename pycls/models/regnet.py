@@ -8,8 +8,8 @@
 """RegNet models."""
 
 import numpy as np
-from pycls.core.config import cfg
-from pycls.models.anynet import AnyNet
+from templete.pycls.core.config import cfg
+from templete.pycls.models.anynet import AnyNet
 
 
 def quantize_float(f, q):

@@ -11,7 +11,7 @@ import colorlover as cl
 import matplotlib.pyplot as plt
 import plotly.graph_objs as go
 import plotly.offline as offline
-import pycls.core.logging as logging
+import templete.pycls.core.logging as logging
 
 
 def get_plot_colors(max_colors, color_format="pyplot"):

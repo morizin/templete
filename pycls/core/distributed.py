@@ -15,7 +15,7 @@ import threading
 import traceback
 
 import torch
-from pycls.core.config import cfg
+from templete.pycls.core.config import cfg
 
 
 def is_master_proc():

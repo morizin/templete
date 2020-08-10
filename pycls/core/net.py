@@ -10,10 +10,10 @@
 import itertools
 import math
 
-import pycls.core.distributed as dist
+import templete.pycls.core.distributed as dist
 import torch
 import torch.nn as nn
-from pycls.core.config import cfg
+from templete.pycls.core.config import cfg
 
 
 def init_weights(m):
